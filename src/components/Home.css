@@ -1,0 +1,97 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-bar button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header-right i {
+    margin-left: 15px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .seller-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .categories {
+    background-color: #e0e0e0;
+    padding: 10px 0;
+  }
+  
+  .categories ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .categories li {
+    padding: 10px 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .categories li:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .content h1 {
+    font-size: 2em;
+    font-weight: bold;
+    max-width: 50%;
+  }
+  
+  .main-image {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+  }

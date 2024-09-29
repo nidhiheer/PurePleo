@@ -1,0 +1,18 @@
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #ffffff;
+}
+
+.text-content h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.image-content img {
+  width: 300px;
+  height: auto;
+}
